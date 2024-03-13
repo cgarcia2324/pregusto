@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: violet;
+}
+#start{
+    background-color: blue;
+}
+
+#start img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 8rem;
+    width: 10rem;
+    transform: translate(-5rem, -4rem);
+
+}
+#welcome{
+    background-color: blue;
+}
+
+#start img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 8rem;
+    width: 10rem;
+    transform: translate(-5rem, -4rem);
+    
+}
+
+.botonera{
+    background:white;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10vh;
+    
+}
+.botonera ul{
+    
+    
+}
+.botonera ul li{
+    display: block;
+    width: 25vh;
+    height: 10vh;
+    float: left;
+}
+.botonera ul li:hover{
+    background-color: red;
+}
